@@ -1,0 +1,329 @@
+/*----------Google fonts---------------*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;0,700;1,400&family=Open+Sans:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+/*----------01.default CSS --------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   /* font-family: 'Nunito', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 1300px;
+    min-height: 80px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.container:before,
+.container:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col-25 {
+    width: 25%;
+    padding: 0 15px;
+    float: left;
+}
+.col-75 {
+    width: 75%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-33 {
+    width: 33.33%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-50 {
+    width: 50%;
+    padding: 0 15px;
+    float: left;
+}
+
+.col-60 {
+    width: 60%;
+    padding: 0 15px;
+    float: left;
+}
+.col-40 {
+    width: 40%;
+    padding: 0 15px;
+    float: left;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/*-------------Header CSS ------------*/
+header{
+    color: white;
+    background-color: #84c0c4;
+}
+.logo,img{
+    width: 136px;
+    max-height: 80px;
+}
+.logo a{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+.main-menu {
+    float: right;
+    padding: 25px 0;
+}
+
+.main-menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.main-menu>ul>li>a{
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    height: 100%;
+    padding: 0 20px;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+.main-menu ul li a:hover{
+    color: #fdcf71;
+}
+
+
+/*-------Home CSS--------------*/
+.home {
+     background: url(../images/h1-slide-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: -90px;
+
+}
+
+.home-container {
+    padding: 100px 0px;
+    height: 100vh;
+}
+.h-col-l{
+    padding: 0px 80px;
+}
+
+.home-container h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 90px;
+    color: #7ECCC5;
+    line-height: 100px;
+    font-weight: 700;
+
+}
+
+.home-container h6 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: #555555;
+    font-weight: 300;
+    padding: 50px 0;
+    line-height: 30px;
+}
+.btn{
+    display: inline-flex;
+}
+.btn a {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px 55px;
+    background-color: #FED872;
+    display: inline-block;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.btn a:hover {
+    color: #fff;
+    background-color: #85CCC5;
+    transition: .3s;
+}
+/*-------------Category box CSS ------------*/
+
+/*-------------Category CSS ------------*/
+
+/*-------------Home CSS ------------*/
+
+/*=====01.Header CSS=====*/
+header {
+    background: #7ECCC5;
+}
+
+
+
+
+
+/*=====03.Category Box CSS=====*/
+.box:hover{
+   opacity: 1;
+}
+
+.box-1{
+    background: url(images/h1-box-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 110px 20px 30px;
+}
+.box-2{
+    background: url(images/h1-box-2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 110px 20px 30px;
+}
+.box-3{
+    background: url(images/h1-box-3.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 110px 20px 30px;
+}
+.box h3{
+    font-family: 'Amatic SC', cursive; 
+    font-size: 54px; 
+    text-transform: uppercase;
+    color:#ffffff;
+}
+.box p{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Nunito', serif;
+    color: #FFFFFF; 
+}
+
+/*=====04.Category Item CSS=====*/
+
+section.catagory-all-item.section-padding-bottom {
+    padding-bottom: 50px;
+}
+
+.catagory-title {
+    display: inline-flex;
+    padding: 0 0 40px 0;
+}
+
+.catagory-title img {
+    float: left;
+    width: 64px;
+    height: 64px;
+}
+
+.catagory-item-1 p {
+    font-family: 'Open Sans', sans-serif;
+    clear: both;
+    font-size: 15px;
+    color: #888888;
+    line-height: 26px;
+}
+
+.catagory-title h4 {
+    font-size: 25px;
+    color: #434343;
+    line-height: 30px;
+    padding: 35px 0 0 10px
+}
+
+.col-p-0 .col-33{
+    padding: 0;
+}
+section.atagorcy-all-box{
+    margin-top: -80px;
+}
+.catagory-itemi-1 p{
+    clear: both;
+}
+.catagory-item-1{
+    padding: 0 80px 68px 0;
+}
+
+.learning{
+    background: url(../images/h1-kids.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.learning .col-50{
+    float: right;
+}
+.lr-h-w{
+    width: 472px;
+    height: 494px;
+    margin-right: 50px;
+}
+.learning-box{
+    background: #FCCE71;
+    padding: 68px 40px;
+}
+.learning-box h3{
+    font-size: 54px;
+    text-transform: uppercase;
+    color: white;
+    font-family:'Amatic SC', cursive ;
+   
+}
+.learning-box p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    color: #313131;
+    padding: 1px 0;
+}
+.learning-box .btn{
+    padding-top: 40px;
+}
+.learning-box .btn a{
+    background: #fff;
+    color: #212121;
+}
+.learning-box .btn a:hover{
+    background: #212121;
+    color: white;
+}
+.section-padding-top {
+    padding-top: 100px;
+}
+
+.section-padding-bottom {
+    padding-bottom: 100px;
+}
